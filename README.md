@@ -21,6 +21,7 @@ Only Landsat [Collection 1](https://landsat.usgs.gov/landsat-collections) is sup
 # Installation
 
 `pip install pylandsat`
+
 `pip install spatialite`
 
 Linux:
@@ -36,7 +37,7 @@ I got some errors about paths, to be fixed next week or next life (send your pus
 
 Windows/Linux
 
-Apply this patchs:
+Patchs in this fork:
 
 * https://github.com/yannforget/pylandsat/pull/10/files
 * https://github.com/yannforget/pylandsat/pull/13/files
