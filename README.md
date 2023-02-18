@@ -21,6 +21,25 @@ Only Landsat [Collection 1](https://landsat.usgs.gov/landsat-collections) is sup
 # Installation
 
 `pip install pylandsat`
+`pip install spatialite`
+
+Linux:
+`sudo apt-get install -y libsqlite3-mod-spatialite`
+
+Windows:
+
+Go to https://www.gaia-gis.it/gaia-sins/index.html
+Download your binaries 
+Unzip (7z) and move all files to C:\windows\system32
+
+I got some errors about paths, to be fixed next week or next life (send your push requests)
+
+Windows/Linux
+
+Apply this patchs:
+
+* https://github.com/yannforget/pylandsat/pull/10/files
+* https://github.com/yannforget/pylandsat/pull/13/files
 
 # Command-line interface
 
