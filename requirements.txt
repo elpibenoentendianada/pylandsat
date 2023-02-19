@@ -8,3 +8,4 @@ numpy
 rasterio
 geopy
 python-dateutil
+spatialite
